@@ -1,89 +1,191 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+<html lang="en">
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/9.15.0/firebase-app-compat.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/9.15.0/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/9.15.0/firebase-database-compat.js"></script>
-    <script defer src="/__/firebase/9.15.0/firebase-firestore-compat.js"></script>
-    <script defer src="/__/firebase/9.15.0/firebase-functions-compat.js"></script>
-    <script defer src="/__/firebase/9.15.0/firebase-messaging-compat.js"></script>
-    <script defer src="/__/firebase/9.15.0/firebase-storage-compat.js"></script>
-    <script defer src="/__/firebase/9.15.0/firebase-analytics-compat.js"></script>
-    <script defer src="/__/firebase/9.15.0/firebase-remote-config-compat.js"></script>
-    <script defer src="/__/firebase/9.15.0/firebase-performance-compat.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/img/qm-favicon.png">
+    <title>Quickmark - Your important links available within 3 seconds</title>
+</head>
 
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
-  </head>
-  <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+<body>
+    <div class="page-wrapper container">
+
+        <div class="first-fold row">
+
+            <section class="left col-md-6">
+
+                <div class="row">
+                    <div class="quickmarks-logo">
+                        <img src="img/qm-logo.png" alt="quickmark logo" srcset="" />
+                    </div>
+                </div>
+
+                <div class="row heading-wrapper">
+                    <h1 class="hero heading">Your important links available within 3 seconds</h1>
+                    <h2 class="sub-hero heading">Quickmark organizes your important links and make it quickly
+                        accessible - for you & your entire team.</h1>
+                </div>
+
+                <div class="row cta-wrapper">
+                    <div class="download-cta col-md-12 text-center">
+                        <a href="https://chrome.google.com/webstore/detail/quickmark/cmajmcnlajbkmoidckocimlgkcjaeekd"
+                            target="_blank">
+                            <img src="img/download-extn.png" alt="download quickmark for free." srcset="">
+                        </a>
+                    </div>
+                    <div class="sub-text col-md-12 text-center">
+                        Free, fast and safe - now & forever. <br /> No login or credit card required.
+                    </div>
+
+                </div>
+
+                <div class="row hero-wrapper col-md-12 text-center">
+                    <div class="hero-image">
+                        <img src="img/hero-image.png" alt="quickmark is single source of all your important links."
+                            srcset="">
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="right col-md-6">
+
+                <div class="row top-line">
+                    <!-- <div class="link share-twitter">
+                        <a href="#" target="_blank" rel="noopener noreferrer">Spread the love</a>
+                    </div> -->
+
+                    <div class="link">
+                        <a href="https://chrome.google.com/webstore/detail/quickmark/cmajmcnlajbkmoidckocimlgkcjaeekd"
+                            target="_blank">
+                            Download extension </a>
+                    </div>
+                </div>
+
+                <div class="testimonial-wrapper">
+                    <div class="content row">
+
+                        <div class="row">
+                            <div class="col-md-2"></div>
+                            <div class="col-md-8">
+                                <div class="row testimonial">
+                                    <div class="col-md-3 text-center customer-pic">
+                                        <div class="quotes-img">
+                                            <svg width="93" height="69" viewBox="0 0 93 69" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <g opacity="0.05">
+                                                    <path
+                                                        d="M92.8206 37.1228H70.3075C70.6924 20.7153 75.346 18.8528 81.1909 18.3212L83.4448 18.0418V0L80.8468 0.139236C73.2144 0.568642 64.7763 1.94453 59.1466 8.89431C54.2117 14.9867 52.036 24.94 52.036 40.2192V68.5316H92.8206V37.1228Z"
+                                                        fill="black" />
+                                                    <path
+                                                        d="M40.7852 68.5316V37.1228H18.5726C18.9575 20.7153 23.4606 18.8528 29.3055 18.3212L31.4094 18.0418V0L28.9614 0.139236C21.3291 0.568642 12.8154 1.94453 7.18573 8.89431C2.25127 14.9867 0.000617981 24.94 0.000617981 40.2192V68.5316H40.7852Z"
+                                                        fill="black" />
+                                                </g>
+                                            </svg>
+                                        </div>
+                                        <img src="img/customer-pic.png" alt="">
+                                    </div>
+                                    <div class="col-md-9">
+                                        <p class="vi-testimonial-text">Quickmark saves me at least one hour everyday; throughout multiple hats I wear. What’s not to love it!!</p>
+                                        <small class="vi-testimonial-name">Ryan grey, Product <span>@Google
+                                                Inc</span></small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row value-prop-wrapper">
+
+                    <div class="prop-heading">Why <span style="text-decoration:line-through">bookmark</span> Quickmark?
+                    </div>
+
+                    <div class="prop">
+                        <div class="prop-sub-heading">
+                            AI powered collections 
+                        </div>
+                        <div class="prop-sub-text">
+                            Bring your similar purpose links together within seconds - by project, customers or whatever works for you.
+                        </div>
+                    </div>
+
+                    <div class="prop">
+                        <div class="prop-sub-heading">
+                            Share & collaborate on cloud
+                        </div>
+                        <div class="prop-sub-text">
+                            Use it for yourself or, share with your team - stay updated and save an hour everyday.
+                        </div>
+                    </div>
+
+                    <div class="prop">
+                        <div class="prop-sub-heading">
+                            Smart & automatic
+                        </div>
+                        <div class="prop-sub-text">
+                            Quickly search, access or even create your Google, Notions docs, Figma files or Jira tickets - all in one place. 
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="footer">
+
+                    <div class="footer-text">
+                        Quickmark is productivity & team collaboration platform offered by Weekday HQ. Join much faster way of working in browser.
+                    </div>
+
+                    <div class="imp-links">
+
+                        <div class="link">
+                            <a href="mailto:support@getquickmark.com" target="_blank">Send an email</a>
+                        </div>
+
+                        <div class="link">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSf8lZkgQK9FfZIqcCtFWPALdAAt3HWCbRr8g6EdysryBmAzgA/viewform"
+                                target="_blank">
+                                Join beta </a>
+                        </div>
+                        <div class="link">
+                            <a href="https://docs.google.com/document/u/0/d/1ik7tbK88fTsw0q1jQbys-vixrW10GXb9jlMMzkMmJzw/mobilebasic"
+                                target="_blank">
+                                Privacy </a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+        </div>
+
     </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
 
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400|Nunito:500|Nunito:600|Nunito:700">
+
+    <link rel="stylesheet" href="css/style.css" crossorigin="anonymous">
+    <script src="js/index.js" crossorigin="anonymous"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-71K5JKSQTT"></script>
     <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
+    gtag('config', 'G-71K5JKSQTT');
     </script>
-  </body>
+</body>
+
 </html>
