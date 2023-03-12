@@ -1,0 +1,20 @@
+
+.page-wrapper.container{
+    max-width: 90%;
+}
+
+.what-next-wrapper {
+    min-height: 980px;
+}
+
+.pin-extension {
+    margin: 0 10%;
+    width: 450px;
+}
+
+img.click-beacon {
+    position: fixed;
+    right: 100px;
+    bottom: 100px;
+    height: 160px;
+}
