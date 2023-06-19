@@ -1,0 +1,277 @@
+body.all-page-style{
+    font-family: 'Hahmlet';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    /* or 156% */
+
+    letter-spacing: 0.05em;
+
+    color: #464545;
+    background: #ebebeb;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+.page-wrapper {
+    max-width: 1320px;
+    box-shadow: 0px 0px 8px rgb(0 0 0 / 25%);
+    background-color: white;
+}
+
+.dark-bg{
+    background: #d9d9d933;
+}
+
+.quickmarks-logo {
+    margin: 40px;
+}
+
+.quickmarks-logo img {
+    height: 40px;
+}
+
+.heading-wrapper{
+    margin-top: 25px;
+}
+
+.bold{
+    font-weight: 600!important;
+}
+
+.hero-image {
+    margin: 50px auto;
+    width: 100%;
+    max-width: 800px;
+}
+
+.hero-image img {
+    width: 100%;
+}
+
+
+h1.hero.heading {
+    width: 60%;
+    font-size: 48px;
+    line-height: 70px;
+    text-align: center;
+    color: #32324C;
+    margin: 15px auto;
+}
+
+h2.sub-hero.heading {
+    max-width: 50%;
+    margin: 0px auto;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #32324C;
+    padding-bottom: 25px;
+}
+
+.client-logos{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+}
+
+.focus-cta a {
+    color: #fff;
+}
+
+.big-focus-content {
+    margin: 100px 0px;
+}
+
+.content-wrapper {
+    /* brand-gradient */
+    background: linear-gradient(47.3deg, #852EF6 -6.17%, #00FFD4 124.22%);
+    border-radius: 12px;
+    width: 75%;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.focus-text-content {
+    font-family: 'Hahmlet';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 40px;
+/* or 150% */
+    color: #FFFFFF;
+}
+
+.focus-cta {
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    display: inline-block;
+    text-align: center;
+    height: 50px;
+    margin: 25px 0px;
+    padding: 10px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+section.feature-preview {
+    margin: 75px 0px;
+}
+
+.feature-left {
+    margin: 10% 0px;
+}
+
+.feature-left .sub-heading {
+    font-family: 'Hahmlet';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    color: #3F3D56;
+    margin: 10px 50px;
+}
+
+.feature-left .text-content {
+    display: inline-block;
+    margin: 10px 50px;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+/* or 178% */
+    letter-spacing: 1px;
+    color: #32324C;
+    width: 75%;
+}
+
+.feature-right {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.feature-right img {
+    width: 90%;
+}
+
+section.testimonial {
+    margin: 75px 0px;
+}
+
+.customer-pic img {
+    height: 100px;
+    border-radius: 10%;
+    position: relative;
+    top: -70px;
+    left: -30px;
+}
+
+.testimonial-wrapper .row {
+    margin: 0 auto;
+}
+
+.quotes-img {
+    position: relative;
+    top: -35px;
+    left: -100px;
+}
+
+section.testimonial {
+    margin: 75px 0px;
+}
+
+.customer-pic img {
+    height: 100px;
+    border-radius: 10%;
+    position: relative;
+    top: -70px;
+    left: -30px;
+}
+
+.testimonial-wrapper .row {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.quotes-img {
+    position: relative;
+    top: -35px;
+    left: -100px;
+}
+
+.vi-testimonial-text, .vi-testimonial-name {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+/* or 133% */
+    align-items: flex-end;
+    letter-spacing: 1px;
+    color: #656F7E;
+}
+
+.vi-testimonial-name {
+    font-size:16px;
+}
+
+.footer {
+    padding: 25px;
+    background: #EEEEEE;
+    font-size: 16px;
+}
+
+.footer-logo {
+    height: 40px;
+    margin: 10px 0px 10px 0px;
+    display: inline;
+}
+
+.footer-text p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    color: #656F7E;
+    margin: 25px 0px;
+    width: 80%;
+}
+
+.link {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 1px;
+    color: #6C63FF;
+    margin: 25px 0px;
+}
+
+.imp-links {
+    margin: 25px 0px;
+}
+
+.link-heading {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    color: #656F7E;
+}
